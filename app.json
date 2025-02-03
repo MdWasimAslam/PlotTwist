@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/android-icon.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.wasim.aslam2897.PlotTwist"
@@ -29,9 +29,25 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "resizeMode": "cover",
+          "backgroundColor": "#ffffff",
+          "enableFullScreenImage_legacy": true
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts":[
+            "./assets/fonts/Rubik-Bold.tts",
+            "./assets/fonts/Rubik-Medium.tts",
+            "./assets/fonts/Rubik-Regular.tts",
+            "./assets/fonts/Rubik-Light.tts",
+            "./assets/fonts/Rubik-SemiBold.tts",
+            "./assets/fonts/Rubik-ExtraBold.tts",
+  
+  
+            
+          ]
         }
       ]
     ],
